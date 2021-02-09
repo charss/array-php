@@ -9,16 +9,16 @@
 			<h1>Enter 10 numbers</h1>
 			<form action="" method='post'>
 				<div class='grid'>
-					<div><label>1.</label><input class='grid-item' type=text name='num1'/></div>
-					<div><label>2.</label><input class='grid-item' type=text name='num2'/></div>
-					<div><label>3.</label><input class='grid-item' type=text name='num3'/></div>
-					<div><label>4.</label><input class='grid-item' type=text name='num4'/></div>
-					<div><label>5.</label><input class='grid-item' type=text name='num5'/></div>
-					<div><label>6.</label><input class='grid-item' type=text name='num6'/></div>
-					<div><label>7.</label><input class='grid-item' type=text name='num7'/></div>
-					<div><label>8.</label><input class='grid-item' type=text name='num8'/></div>
-					<div><label>9.</label><input class='grid-item' type=text name='num9'/></div>
-					<div><label>10. </label><input class='grid-item' type=text name='num10' id='ten' /></div>
+					<div><label>1.</label><input class='grid-item' type=text name='num1' maxlength=9/></div>
+					<div><label>2.</label><input class='grid-item' type=text name='num2' maxlength=9/></div>
+					<div><label>3.</label><input class='grid-item' type=text name='num3' maxlength=9/></div>
+					<div><label>4.</label><input class='grid-item' type=text name='num4' maxlength=9/></div>
+					<div><label>5.</label><input class='grid-item' type=text name='num5' maxlength=9/></div>
+					<div><label>6.</label><input class='grid-item' type=text name='num6' maxlength=9/></div>
+					<div><label>7.</label><input class='grid-item' type=text name='num7' maxlength=9/></div>
+					<div><label>8.</label><input class='grid-item' type=text name='num8' maxlength=9/></div>
+					<div><label>9.</label><input class='grid-item' type=text name='num9' maxlength=9/></div>
+					<div><label>10. </label><input class='grid-item' type=text name='num10' id='ten'  maxlength=9/></div>
 
 				</div>
 				<input type='submit' name='submit'/>
@@ -50,7 +50,7 @@
 
 			<table id='try'>
 				<tr>
-					<td colspan='2'>
+					<td colspan='2' class='array_list'>
 						<?php
 							for ($i = 0; $i < count($arr); $i++) {
 								if ($i == 0 || $i == count($arr) - 1) {
@@ -63,7 +63,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td>Addition</td>
+					<td class='darken'>Addition:</td>
 					<td>
 						<?php
 							if (count($num_array) > 0) {
@@ -75,7 +75,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td>Subtraction</td>
+					<td class='darken'>Subtraction:</td>
 					<td>
 						<?php
 							$diff = 0;
@@ -91,7 +91,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td>Multiplication:</td>
+					<td class='darken'>Multiplication:</td>
 					<td>
 						<?php
 							if (count($num_array) > 0) {
@@ -103,7 +103,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td>Division</td>
+					<td class='darken'>Division:</td>
 					<td>
 						<?php
 							$quo = 1;
