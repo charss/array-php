@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>
+		</title>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td>Array list:</td>
+			</tr>
+			<tr>
+				<td>Addition</td>
+				<td>56</td>
+			</tr>
+			<tr>
+				<td>Subtrraction</td>
+				<td>-54</td>
+			</tr>
+			<tr>
+				<td>Multiplication:</td>
+				<td>#####</td>
+			</tr>
+			<tr>
+				<td>Division</td>
+				<td>######</td>
+			</tr>
+		</table>
+	</body>
+</html>
