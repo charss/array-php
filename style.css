@@ -1,0 +1,55 @@
+body {
+	background: lightblue;
+	
+}
+
+table, td, th {
+  	border: 1px solid black;
+}
+
+table {
+	width: 75%;
+  	border-collapse: collapse;
+}
+
+.parent {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+  	padding: 10px;
+
+}
+
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+	width: 100px;
+	height: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+
+
+}
+
+label {
+	margin-right: 7px;
+}
+
+#ten {
+	margin-left: -8px;
+}
+
+form {
+	margin-bottom: 50px;
+}
